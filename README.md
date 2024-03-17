@@ -1,2 +1,28 @@
-# Add-later
-2024_1 MJU Softwear Engineering TeamProject
+## **팀원**
+
+<br/>
+
+### 김민혁
+
+**학번 : 60202182**
+GitHub : 
+
+
+<br/><br/><br/>
+
+
+### 이재민
+
+**학번 : 60202240**
+GitHub : 
+
+
+<br/><br/><br/>
+
+### 최혁
+
+**학번 : 60202263**
+GitHub : 
+
+
+
