@@ -12,7 +12,7 @@
 
 **학번 : 60202182**
 
-📫
+📧
 
 <br/>
 
@@ -26,7 +26,7 @@
 
 **학번 : 60202240**
 
-📫
+📧
 
 [<img src="https://github.com/choi-hyk/Add-later/assets/127075917/9c78658a-6b33-4f66-b771-3adf84b2c7d0" alt="GitHub" width="80" height="auto">](https://github.com/javor10)
 
@@ -40,7 +40,7 @@
 
 **학번 : 60202263**
 
-📫
+📧
 
 <br/>
 
