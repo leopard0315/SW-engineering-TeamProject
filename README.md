@@ -12,24 +12,20 @@
 
 **학번 : 60202182**
 
-📧
 
-<br/>
+[:octocat:GitHub:octocat:](https://github.com/leopard0315)
 
-[<img src="https://github.com/choi-hyk/Add-later/assets/127075917/9c78658a-6b33-4f66-b771-3adf84b2c7d0" alt="GitHub" width="80" height="auto">]
-
+📧E-Mail📧 :
 <br/><br/><br/>
 
 ### 이재민
 
-<br/>
 
 **학번 : 60202240**
 
-📧
+[:octocat:GitHub:octocat:](https://github.com/javor10)
 
-[<img src="https://github.com/choi-hyk/Add-later/assets/127075917/9c78658a-6b33-4f66-b771-3adf84b2c7d0" alt="GitHub" width="80" height="auto">](https://github.com/javor10)
-
+📧E-Mail📧 :
 <br/>
 
 <br/><br/><br/>
@@ -40,8 +36,7 @@
 
 **학번 : 60202263**
 
-📧
 
-<br/>
+[:octocat:GitHub:octocat:](https://github.com/choi-hyk)
 
-[<img src="https://github.com/choi-hyk/Add-later/assets/127075917/9c78658a-6b33-4f66-b771-3adf84b2c7d0" alt="GitHub" width="80" height="auto">](https://github.com/choi-hyk)
+📧E-Mail📧 : 8167chhk@naver.com  blindlchoil@gamil.com  
