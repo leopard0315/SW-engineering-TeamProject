@@ -6,18 +6,13 @@
 
 <br/>
 
-### 김민혁
+### 김민혁(60202182)
 
 <br/>
-
-
-**학번 : 60202182**
 
 :octocat:
 $\cal{\huge{GitHub : }}$ https://github.com/leopard0315
 :octocat:
-
-
 
 📧
 $\cal{\huge{eMail : }}$ 📧 
@@ -25,10 +20,7 @@ $\cal{\huge{eMail : }}$ 📧
 
 <br/><br/><br/>
 
-### 이재민
-
-
-**학번 : 60202240**
+### 이재민(60202240)
 
 :octocat:
 $\cal{\huge{GitHub : }}$  https://github.com/javor10
@@ -41,12 +33,9 @@ $\cal{\huge{eMail : }}$   📧
 
 <br/><br/><br/>
 
-### 최혁
+### 최혁(60202263)
 
 <br/>
-
-**학번 : 60202263**
-
 
 :octocat:
 $\cal{\huge{GitHub : }}$ https://github.com/choi-hyk
