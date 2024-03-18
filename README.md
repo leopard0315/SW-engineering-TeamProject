@@ -50,5 +50,5 @@ $\cal{\huge{GitHub : }}$ https://github.com/choi-hyk
 
 
 📧
-$\cal{\huge{eMail : }}$  :  8167chhk@naver.com, blindlchoil@gamil.com  📧
+$\cal{\huge{eMail : }}$  8167chhk@naver.com, blindlchoil@gamil.com  📧
 
