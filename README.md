@@ -6,7 +6,7 @@
 
 ## $\cal{Work\ Space}$
 
-[<img alt="Notion" src ="https://img.shields.io/badge/Notion-000000.svg?&style=for-the-badge&logo=Notion&logoColor=white"/>](https://www.notion.so/466bc0fdb19243388c62b43822581ec5?v=c696eea3b8d74a93beefac8a63f89ffe&showMoveTo=true)<img alt="Slack" src ="https://img.shields.io/badge/Slack-4A154B.svg?&style=for-the-badge&logo=Slack&logoColor=white"/></a>
+[<img alt="Notion" src ="https://img.shields.io/badge/Notion-000000.svg?&style=for-the-badge&logo=Notion&logoColor=white"/>](https://www.notion.so/466bc0fdb19243388c62b43822581ec5?v=c696eea3b8d74a93beefac8a63f89ffe&showMoveTo=true)[<img alt="Slack" src ="https://img.shields.io/badge/Slack-4A154B.svg?&style=for-the-badge&logo=Slack&logoColor=white"/></a>](https://mjuse2024.slack.com/archives/C06Q594E5MK)
 
 <br/>
 
