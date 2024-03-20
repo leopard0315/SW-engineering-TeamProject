@@ -1,4 +1,4 @@
-## $\cal{\huge{Softwear\ Engineering\ Team\ Project}}$
+## $\cal{\huge{Software\ Engineering\ Team\ Project}}$
 
 2024-1 소프트웨어 공학 팀프로젝트
 
