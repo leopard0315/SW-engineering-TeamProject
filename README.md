@@ -22,7 +22,7 @@ $\cal{\huge{GitHub : }}$ https://github.com/leopard0315
 :octocat:
 
 📧
-$\cal{\huge{eMail : }}$ evanleo1021@gamil.com📧 
+$\cal{\huge{eMail : }}$ evanleo1021@gmail.com📧 
 
 
 <br/><br/>
