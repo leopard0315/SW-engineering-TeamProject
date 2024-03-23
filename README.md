@@ -10,6 +10,12 @@
 
 <br/>
 
+## $\cal{Team\ Name}$
+
+### 재민혁 (재민+민혁+혁)
+
+<br/>
+
 ## $\cal{Team\ Member}$
 
 
