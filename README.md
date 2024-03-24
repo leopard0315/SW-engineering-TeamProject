@@ -34,7 +34,7 @@ $\cal{\huge{eMail : }}$ evanleo1021@gmail.com📧
 <br/><br/>
 
 ### 이재민(60202240)
-## MYONGJI UNIV. COMPUTER ENGINEERING 3rd grade
+#### MYONGJI UNIV. COMPUTER ENGINEERING 3rd grade
 <br/>
 
 :octocat:
@@ -47,7 +47,7 @@ $\cal{\huge{eMail : }}$ lljjmm1010@gmail.com📧
 <br/><br/>
 
 ### 최혁(60202263)
-## MYONGJI UNIV. COMPUTER ENGINEERING 3rd grade
+#### MYONGJI UNIV. COMPUTER ENGINEERING 3rd grade
 
 <br/>
 
