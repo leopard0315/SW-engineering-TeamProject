@@ -20,7 +20,7 @@
 
 
 ### 김민혁(60202182)
-## MYONGJI UNIV. COMPUTER ENGINEERING 3rd grade
+#### MYONGJI UNIV. COMPUTER ENGINEERING 3rd grade
 <br/>
 
 :octocat:
