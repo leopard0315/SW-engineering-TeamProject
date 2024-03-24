@@ -20,7 +20,7 @@
 
 
 ### 김민혁(60202182)
-
+## MYEONGJI UNIV. COMPUTER ENGINEERING 3rd grade
 <br/>
 
 :octocat:
@@ -34,7 +34,7 @@ $\cal{\huge{eMail : }}$ evanleo1021@gmail.com📧
 <br/><br/>
 
 ### 이재민(60202240)
-
+## MYEONGJI UNIV. COMPUTER ENGINEERING 3rd grade
 <br/>
 
 :octocat:
@@ -47,6 +47,7 @@ $\cal{\huge{eMail : }}$ lljjmm1010@gmail.com📧
 <br/><br/>
 
 ### 최혁(60202263)
+## MYEONGJI UNIV. COMPUTER ENGINEERING 3rd grade
 
 <br/>
 
