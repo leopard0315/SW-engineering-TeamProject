@@ -2,8 +2,12 @@
 ![TeamSpace_ClassDiagram drawio](https://github.com/choi-hyk/SW-engineering-TeamProject/assets/127075917/c35969c7-e503-4f39-8b23-12a302fbf51c)
 
 ####  해당 클래스 다이어그램은 유저한테 팀 스페이스 인터페이스를 제공하고 데이터 공유 및 관리, 팀 멤버 관리, 팀 스페이스 설정 그리고 UML, 문서, 그래프, 일정 관리 등 여러가지 도구를 사용할 수 있는 함수를 나타냅니다.  
+
+### 팀 과제 #4 에서 사용한 부분
+#### TeamSpace_ClassDiagram 에서 TeamSapce클래스와 의존 관계에 있는 Tool클래스 그리고 TeamSpace의 함수를 클래스로 나눠서 구현했습니다.
+
 ### 사용 패턴 : 구조 패턴 - Composite
-### 사용 부분 : 팀 과제 4#의 TeamSpace_ClassDiagram 에서 TeamSapce클래스와 의존 관계에 있는 Tool클래스 그리고 TeamSpace의 함수를 클래스로 나눠서 구현했습니다.
+
 ### 사용 이유
 #### 팀 스페이스가 보유하고 있는 여러가지의 기능들을 단일 객체로 구현하는데 많은 어려움이 존재했습니다. 따라서 같은 계층에 있는 단일 객체들의 기능을 보유하고 있는 복합 객체를 생성하여 트리 구조로 나타내는 복합체(Composite) 패턴으로 구현했습니다. 또한 도구(Tool) 기능 같은 하위 계층의 객체또한 복합체로 나타내서 보다 용이하게 구현 가능하여 해당 패턴을 사용하였습니다.
 <br/><br/>
