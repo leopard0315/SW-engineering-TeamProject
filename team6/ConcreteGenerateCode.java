@@ -13,6 +13,6 @@ public class OpenAIAdapter implements ConcreteGenerateCode {
 
     @Override
     public String generate(String data) {
-        return ""; // TODO: OpenAI와의 연동을 통해 코드 생성 로직 구현
+        return ""; 
     }
 }
