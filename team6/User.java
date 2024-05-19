@@ -14,6 +14,16 @@ public class User {
     private String email;
 
     /**
+     * 사용자의 브렌치를 나타내는 변수
+     */
+    private String[] branches;
+
+    /**
+     * 사용자의 현재 브렌치를 나타내는 변수
+     */
+    private String currentBranches;
+
+    /**
      * 사용자에게 메세지를 알려주는 함수
      * @param message
      */
