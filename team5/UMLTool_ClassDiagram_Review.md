@@ -19,10 +19,10 @@
 해당 클래스들은 createDiagram으로 특정 객체가 생성 되면 UML이 제공하는 공통 기능인 UMLElements클래스의 기능들을 사용 가능하도록 합니다.
 <br/><br/>
 ## UMLElement
-해당 클래스들는 UML의 공통된 기능을 제공하는 Product클래스이며 추상 함수를 통해 특정 UML이 해당 함수를 구체화하여 사용 가능하도록 합니다.
+해당 클래스는 UML의 공통된 기능을 제공하는 Product클래스이며 추상 함수를 통해 특정 UML이 해당 함수를 구체화하여 사용 가능하도록 합니다.
 <br/><br/>
 ## Concrete Product(UseCaseDiagram, ActivityDiagram, ClassDiagram, StateMachineDiagram, SequenceDiagram)
-해당 클래스는 Creator로 생성된 UML의 특정 기능을 제공합니다. 따라서 특정 UML마다 공통된 기능을 구체화하여 기능을 제공합니다.
+해당 클래스들은 Creator로 생성된 UML의 특정 기능을 제공합니다. 따라서 특정 UML마다 공통된 기능을 구체화하여 기능을 제공합니다.
 <br/><br/>
 ## 사용방법
 사용자는 UML 도구를 사용하여 UML객체를 만듭니다. 이때 어떠한 UML을 만들지 선택한 후 만들어진 객체를 통해 inputText, addDiagram, linkArrow 등 공통된 기능을 사용 가능합니다. 또한 UML을 추가할때 해당 UML의 Factory와 Prodcut함수만 구현하면 되므로 확장에도 용이 합니다.
