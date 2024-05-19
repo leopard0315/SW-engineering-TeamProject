@@ -2,6 +2,8 @@
 ![UMLCodeLinking_ClassDiagram drawio](https://github.com/choi-hyk/SW-engineering-TeamProject/assets/127075917/0ba25ed9-9063-4e1f-b0c0-1a2285ef8078)
 
 ####  해당 클래스 다이어그램은 코드와 UML을 탐색하여 공통된 클래스들을 연결하는 기능을 정의합니다. 사용자는 해당 클래스들을 사용하여 UML과 코드를 연결 가능하고 연결한 후 데이터를 동기화 하여 수정 및 구현을 통해 UML 또는 코드를 업데이트 가능합니다.
+### 팀 과제 #4 에서 사용한 부분
+#### TeamSpace_ClassDiagrma의 UMLCodeLinking클래스를 사용하여 연결 부분과 UML 데이터, 코드 데이터를 정의하는 클래스로 나눴습니다. 또한  UMLCodeLinking클래스의 함수를 구체적으로 정의 하였습니다.
 ### 사용 패턴 : 생성 패턴 - Mediator
 ### 사용 이유
 #### 중재자(Mediator) 패턴은 서로 공유하는 기능을 제공하는 객체들이 직접 참조를 하지 않게 하여 결합도를 낮추고 상호작용을 독립적으로 사용 가능하게 합니다. 따라서 UMLData와 CodeData는 서로 일치 시킬 수 있는 데이터가 존재하지만 서로 직접 참조를 할 경우 많은 문제가 발생 가능합니다. 이때 중재자 패턴을 활용하여 해당 클래스들을 Colleague클래스에서 연결한 후 연결한 데이터를 Mediator클래스로 전송하여 Linking기능을 사용하도록 구현할 수 있습니다. 이러한 이유로 해당 패턴을 선택하였습니다. 
