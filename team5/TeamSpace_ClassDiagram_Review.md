@@ -1,5 +1,6 @@
 # TeamSpace
-![TeamSpace_ClassDiagram drawio](https://github.com/choi-hyk/SW-engineering-TeamProject/assets/127075917/c35969c7-e503-4f39-8b23-12a302fbf51c)
+![TeamSpace_ClassDiagram drawio](https://github.com/choi-hyk/SW-engineering-TeamProject/assets/127075917/e0c0c70e-1f15-4a38-aca8-2fc10e3d5ec3)
+
 
 ####  해당 클래스 다이어그램은 유저한테 팀 스페이스 인터페이스를 제공하고 데이터 공유 및 관리, 팀 멤버 관리, 팀 스페이스 설정 그리고 UML, 문서, 그래프, 일정 관리 등 여러가지 도구를 사용할 수 있는 함수를 나타냅니다.  
 
