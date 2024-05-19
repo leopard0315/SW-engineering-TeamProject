@@ -1,2 +1,2 @@
 
-![Command_codeRule](https://github.com/choi-hyk/SW-engineering-TeamProject/assets/127277307/4d0e75b6-38c4-4cd2-b81e-1f83dfc1256c)
+![strategy_generateCode](https://github.com/choi-hyk/SW-engineering-TeamProject/assets/127277307/6c6013d5-71c4-41c3-98de-d584e3b55041)
