@@ -1,5 +1,6 @@
 # UMLTool
-![UMLTool_ClassDiagram drawio](https://github.com/choi-hyk/SW-engineering-TeamProject/assets/127075917/3d1b6bb8-7f76-4a75-a95f-7f1e77b671cb)
+![UMLTool_ClassDiagram drawio](https://github.com/choi-hyk/SW-engineering-TeamProject/assets/127075917/1b27f2d0-6b2f-42ee-b454-3ea6fbbe5d0f)
+
 
 ####  해당 클래스 다이어그램은 도구 기능 중 UML 기능을 제공하는 클래스들을 정의합니다. 사용자는 해당 클래스들을 이용하여 5가지 UML 유스케이스 다이어그램, 엑티비티 다이어그램, 클래스 다이어그램, 상태기계 다이어그램, 순차 다이어그램을 사용 가능합니다.
 ### 팀 과제 #4 에서 사용한 부분
