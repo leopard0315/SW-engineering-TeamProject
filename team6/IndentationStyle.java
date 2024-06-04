@@ -11,15 +11,9 @@ public class IndentationStyle implements CodeStyleStrategy {
 
     @Override
     public void applyStyle() {
-        System.out.println("적용: 들여쓰기 스타일 - " + spaces + " spaces");
-        for (String line : lines) {
-            String indentedLine = indent(line);
-            System.out.println(indentedLine);
-        }
     }
 
     private String indent(String line) {
-        String spacesString = new String(new char[spaces]).replace('\0', ' ');
-        return spacesString + line;
+        return "";
     }
 }

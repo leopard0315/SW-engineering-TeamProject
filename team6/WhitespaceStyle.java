@@ -11,18 +11,9 @@ public class WhitespaceStyle implements CodeStyleStrategy {
 
     @Override
     public void applyStyle() {
-        System.out.println("적용: 공백 스타일 - " + (removeTrailingSpaces ? "Remove trailing spaces" : "Keep trailing spaces"));
-        for (String line : lines) {
-            String processedLine = processWhitespace(line);
-            System.out.println(processedLine);
-        }
     }
 
     private String processWhitespace(String line) {
-        if (removeTrailingSpaces) {
-            return line.stripTrailing();
-        } else {
-            return line;
-        }
+        return "";
     }
 }
