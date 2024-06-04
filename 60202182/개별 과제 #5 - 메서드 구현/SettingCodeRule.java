@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
@@ -27,11 +28,11 @@ public class SettingCodeRule {
         this.commentFormats.put("multiline", "/* */");
         this.commentFormats.put("javadoc", "/** */");
 
-        this.namingConventionStyle = new NamingConventionStyle("CamelCase");
-        this.indentationStyle = new IndentationStyle(4);
-        this.commentStyle = new CommentStyle("singleline", commentFormats);
-        this.whitespaceStyle = new WhitespaceStyle(true);
-        this.lineBreakStyle = new LineBreakStyle("unix");
+        this.namingConventionStyle = null;
+        this.indentationStyle = null;
+        this.commentStyle = null;
+        this.whitespaceStyle = null;
+        this.lineBreakStyle = null;
     }
 
     // 싱글톤 인스턴스 반환 메서드
@@ -58,65 +59,85 @@ public class SettingCodeRule {
 
     // 기본 이름 규칙 스타일 적용 메서드
     public void applyNamingConventionStyle() {
-        namingConventionStyle.applyStyle();
+        if (namingConventionStyle != null) {
+            namingConventionStyle.applyStyle();
+        } else {
+            System.out.println("이름 규칙 스타일이 설정되지 않았습니다.");
+        }
     }
 
     // 기본 들여쓰기 스타일 적용 메서드
     public void applyIndentationStyle() {
-        indentationStyle.applyStyle();
+        if (indentationStyle != null) {
+            indentationStyle.applyStyle();
+        } else {
+            System.out.println("들여쓰기 스타일이 설정되지 않았습니다.");
+        }
     }
 
     // 기본 주석 스타일 적용 메서드
     public void applyCommentStyle() {
-        commentStyle.applyStyle();
+        if (commentStyle != null) {
+            commentStyle.applyStyle();
+        } else {
+            System.out.println("주석 스타일이 설정되지 않았습니다.");
+        }
     }
 
     // 기본 공백 스타일 적용 메서드
     public void applyWhitespaceStyle() {
-        whitespaceStyle.applyStyle();
+        if (whitespaceStyle != null) {
+            whitespaceStyle.applyStyle();
+        } else {
+            System.out.println("공백 스타일이 설정되지 않았습니다.");
+        }
     }
 
     // 기본 줄바꿈 스타일 적용 메서드
     public void applyLineBreakStyle() {
-        lineBreakStyle.applyStyle();
+        if (lineBreakStyle != null) {
+            lineBreakStyle.applyStyle();
+        } else {
+            System.out.println("줄바꿈 스타일이 설정되지 않았습니다.");
+        }
     }
 
     // 들여쓰기 설정 로직
-    public void setIndentation(int spaces) {
+    public void setIndentation(int spaces, List<String> lines) {
         this.indentation = spaces;
-        this.indentationStyle = new IndentationStyle(spaces);
+        this.indentationStyle = new IndentationStyle(spaces, lines);
         System.out.println("설정된 들여쓰기: " + spaces + " spaces");
         applyIndentationStyle();
     }
 
     // 주석 스타일 설정 로직
-    public void setCommentStyle(String style) {
+    public void setCommentStyle(String style, List<String> comments) {
         this.commentStyleSetting = style;
-        this.commentStyle = new CommentStyle(style, commentFormats);
+        this.commentStyle = new CommentStyle(style, commentFormats, comments);
         System.out.println("설정된 주석 스타일: " + commentStyleSetting);
         applyCommentStyle();
     }
 
     // 줄바꿈 설정 로직
-    public void setLineWrap(String lineWrap) {
+    public void setLineWrap(String lineWrap, List<String> lines) {
         this.lineWrap = lineWrap;
-        this.lineBreakStyle = new LineBreakStyle(lineWrap);
+        this.lineBreakStyle = new LineBreakStyle(lineWrap, lines);
         System.out.println("설정된 줄바꿈: " + lineWrap);
         applyLineBreakStyle();
     }
 
     // 이름 컨벤션 설정 로직
-    public void setNamingConvention(String namingConvention) {
+    public void setNamingConvention(String namingConvention, String[] variableNames) {
         this.namingConvention = namingConvention;
-        this.namingConventionStyle = new NamingConventionStyle(namingConvention);
+        this.namingConventionStyle = new NamingConventionStyle(namingConvention, variableNames);
         System.out.println("설정된 이름 컨벤션: " + namingConvention);
         applyNamingConventionStyle();
     }
 
     // 공백 설정 로직
-    public void setWhitespaceSetting(boolean removeTrailingSpaces) {
+    public void setWhitespaceSetting(boolean removeTrailingSpaces, List<String> lines) {
         this.removeTrailingSpaces = removeTrailingSpaces;
-        this.whitespaceStyle = new WhitespaceStyle(removeTrailingSpaces);
+        this.whitespaceStyle = new WhitespaceStyle(removeTrailingSpaces, lines);
         System.out.println("설정된 공백: " + (removeTrailingSpaces ? "Remove trailing spaces" : "Keep trailing spaces"));
         applyWhitespaceStyle();
     }
@@ -143,11 +164,11 @@ public class SettingCodeRule {
         Properties properties = new Properties();
         try (InputStream input = new FileInputStream("settings.properties")) {
             properties.load(input);
-            setIndentation(Integer.parseInt(properties.getProperty("indentation")));
-            setCommentStyle(properties.getProperty("commentStyle"));
-            setLineWrap(properties.getProperty("lineWrap"));
-            setNamingConvention(properties.getProperty("namingConvention"));
-            setWhitespaceSetting(Boolean.parseBoolean(properties.getProperty("removeTrailingSpaces")));
+            setIndentation(Integer.parseInt(properties.getProperty("indentation")), List.of());
+            setCommentStyle(properties.getProperty("commentStyle"), List.of());
+            setLineWrap(properties.getProperty("lineWrap"), List.of());
+            setNamingConvention(properties.getProperty("namingConvention"), new String[]{});
+            setWhitespaceSetting(Boolean.parseBoolean(properties.getProperty("removeTrailingSpaces")), List.of());
             System.out.println("설정 로드됨");
         } catch (IOException io) {
             io.printStackTrace();
